@@ -1,11 +1,9 @@
 """
 Module: utils_tgood
 
-Purpose: Reusable Module for My Analytics Projects
+Purpose: Reusable Module for Hotel projects
 
-Description: This module provides a byline for my analytics projects. 
-When we work hard to write useful code, we want it to be reusable.
-A good byline could be used in every Python analytics project we do.
+Description: This module provides a byline for Hotel managment. 
 
 Author: Tamia Goode
 
