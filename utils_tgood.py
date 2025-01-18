@@ -4,7 +4,8 @@ Module: utils_tgood
 
 Purpose: Reusable Module for Hotel projects
 
-Description: This module provides a byline for Hotel managment. 
+Description: This module provides a byline for Hotel managment. This module will provide support
+for future analytical projects. 
 
 Author: Tamia Goode
 
