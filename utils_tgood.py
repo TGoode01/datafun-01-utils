@@ -28,23 +28,26 @@ import statistics  # provides mean(), stdev() and more....
 
 # declare a boolean variable (has a value True or False)
 # TODO: Add another or replace this with your own boolean variable
-has_international_clients: bool = True
+is_internationally_owned: bool = True
+is_a_public_property: bool = True
 
 # declare an integer variable 
 # TODO: Add or replace this with your own integer variable
-years_in_operation: int = 10
+years_in_operation: int = 50
 
 # declare a floating point variable
 # TODO: Add or replace this with your own floating point variable
-average_client_satisfaction: float = 4.7
+average_client_satisfaction: float = 4.9
+
 
 # declare a list of strings
 # TODO: Add or replace this with your own list  
 skills_offered: list = ["Data Analysis", "Machine Learning", "Business Intelligence"]
+products_offered: list = ["Feather Free Pillow", "Ostrich Feather Pillow", "Cotton Pillow"]
 
 # declare a list of numbers so we can illustrate statistics skills
 # TODO: Add or replace this with your own numeric list  
-client_satisfaction_scores: list = [4.8, 4.6, 4.9, 5.0, 4.7]
+client_satisfaction_scores: list = [5.0, 3.5, 4.5, 5.0, 4.8]
 
 # Calculate basic statistics using built-in Python functions and the statistics module
 # TODO: Replace these variable names with the variable name of your own numeric list
@@ -60,7 +63,7 @@ byline: str = f"""
 ---------------------------------------------------------
 Stellar Analytics: Delivering Professional Insights
 ---------------------------------------------------------
-Has International Clients:  {has_international_clients}
+Is a Public Property:  {is_a_public_property}
 Years in Operation:         {years_in_operation}
 Skills Offered:             {skills_offered}
 Client Satisfaction Scores: {client_satisfaction_scores}
@@ -123,3 +126,4 @@ if __name__ == '__main__':
     main()
 
 #TODO: Run this as a script and verify all code works as intended.
+
